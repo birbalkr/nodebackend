@@ -3,6 +3,17 @@
 //functions return
 //async js coding
 
+// ****************** async ******************
+
+async function abc(){
+    var api = await fetch(`https://randomuser.me/api/`);
+    var res = await api.json();
+
+    console.log(res.results[0].name);
+}
+
+abc();
+
 // ****************** objects ******************
     // var obj = {
     //     name: "Birbal",
