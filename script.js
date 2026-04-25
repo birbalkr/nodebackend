@@ -3,24 +3,41 @@
 //functions return
 //async js coding
 
-    var obj = {
-        name: "Birbal",
-        age: 22,
-        city: "delhi",
-    }
+// ****************** objects ******************
+    // var obj = {
+    //     name: "Birbal",
+    //     age: 22,
+    //     city: "delhi",
+    // }
+
+    // Object.freeze(obj); // freeze the object to prevent any changes
+
+
+    // console.log(obj.name);
+
+    //  // update age of obj
+    // obj.age= 23;
+
+    // console.log(obj.age);
     
-    Object.freeze(obj); // freeze the object to prevent any changes
+// *************** function ***************** 
+
+function abcd(a,b,c){
+    return "hello world";
+}
+
+var call= abcd();
+
+console.log(call);
+// without parameters in function
+// console.log(abcd.length);
+
+// when pass parameters in function. function length will give the number of parameters in function
+console.log(abcd.length);
 
 
-    console.log(obj.name);
 
-     // update age of obj
-    obj.age= 23;
-
-    console.log(obj.age);
-    
-    
-
+// ***************** array ******************
 
 // var arr = [1, 12, 3, 14, 5];
 // // foreach map filter find indexOf
