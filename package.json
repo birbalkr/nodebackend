@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/birbalkr/backen/issues"
   },
-  "homepage": "https://github.com/birbalkr/backen#readme"
+  "homepage": "https://github.com/birbalkr/backen#readme",
+  "dependencies": {
+    "mongoose": "^9.5.0"
+  }
 }

@@ -1,14 +1,15 @@
 const fs = require('fs');
+const http = require('http');
 
 // create a file named 'hello.txt' and write 'Hello, World!' to it. Then, append a new line with the text 'This is an appended line.' to the same file.
 
-fs.writeFile('hello.txt', 'Hello, World!', (err) => {
-    if (err) {
-        console.error('Error creating file:', err);
-    } else {
-        console.log('File created successfully!');
-    }
-});
+// fs.writeFile('hello.txt', 'Hello, World!', (err) => {
+//     if (err) {
+//         console.error('Error creating file:', err);
+//     } else {
+//         console.log('File created successfully!');
+//     }
+// });
 // append a new line with the text 'This is an appended line.' to the same file.
 
 // fs.appendFile('hello.txt', ' This is an appended line.', (err) => {
@@ -48,10 +49,15 @@ fs.copyFile('hello.txt', './copy/hello_copy.txt', (err) => {
 //     }
 // });
 
-fs.rm('./copy', { recursive: true }, (err) => {
-    if (err) {
-        console.error('Error deleting file:', err);
-    } else {
-        console.log('File deleted successfully!');
-    }
-});
+// fs.rm('./copy', { recursive: true }, (err) => {
+//     if (err) {
+//         console.error('Error deleting file:', err);
+//     } else {
+//         console.log('File deleted successfully!');
+//     }
+// });
+
+// ****************** HTTP ******************
+
+
+
